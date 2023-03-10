@@ -1,7 +1,6 @@
-# STAT3011-PROJECT2
-Movie streaming platforms analysis based on data until 2020
+# STAT3011-PROJECT2 : Movie streaming platforms analysis based on data until 2020
 
-Project structure
+## Project structure
 
 Part one - Improvements in the original Exploratory Data Analysis part 
 
