@@ -59,6 +59,7 @@ Gd<-c(nrow(d[grep("Comedy",d$Genres),]),nrow(d[grep("Adventure",d$Genres),]),
       nrow(d[grep("Thriller",d$Genres),]),nrow(d[grep("Romance",d$Genres),]),
       nrow(d[grep("Documentary",d$Genres),]),nrow(d[grep("Sci-Fi",d$Genres),]))
 #Com=Comedy, Adv=Adventure, Act=Action, Dra=Drama, Thr=Thriller, Rom=Romance, Doc=Documentary, Sci=Sci-Fi
+par(mfrow=c(2,2))
 pie(Gn,main = "Movie Genres in Netflix",labels=c("Com","Adv","Act","Dra","Thr","Rom","Doc","Sci"))
 pie(Gh,main = "Movie Genres in Hulu",labels=c("Com","Adv","Act","Dra","Thr","Rom","Doc","Sci"))
 pie(Gp,main = "Movie Genres in Prime Video",labels=c("Com","Adv","Act","Dra","Thr","Rom","Doc","Sci"))
