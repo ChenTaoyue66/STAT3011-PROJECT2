@@ -1,4 +1,4 @@
 The three graphs are plotted by R, refer to Part 1 R code.r
-IMDB Bar.png is the Bar chart of IMDB rating of movies in 5 ranges(0-2,2-4,4-6,6-8,8-10)
-Genres.png is the pie chart showing 8 popuplar genres in 4 platforms
-Rating Distribution.png is the pie chart showing IMDB rating on 4 platforms 
+IMDB Bar.png is the Bar chart of IMDB rating of movies in 5 ranges of movies rating(0-2,2-4,4-6,6-8,8-10)
+Genres.png is the pie chart showing 8 popuplar genres in these 4 platforms
+Rating Distribution.png is the pie chart showing IMDB rating on these 4 platforms 
