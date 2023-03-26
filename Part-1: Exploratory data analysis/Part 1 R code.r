@@ -7,7 +7,7 @@ x<-x[!is.na(x$IMDb),]                #Remove rows contains no IMDB values
 #Create bar plot of movies IMDB values divided into 5 ranges
 grouped_imdb<-c(length(which(x$IMDb<2)),length(which(x$IMDb<4))-length(which(x$IMDb<2)),
 length(which(x$IMDb<6))-length(which(x$IMDb<4)),length(which(x$IMDb<8))-length(which(x$IMDb<6)),length(which(x$IMDb<=10))-length(which(x$IMDb<8)))
-barplot(grouped_imdb,main="Bar Chat of IMDB values")
+barplot(grouped_imdb,main="Bar Chat of IMDB values",names.arg=c("0-2","2-4","4-6","6-8",">8"))
 
 
 
