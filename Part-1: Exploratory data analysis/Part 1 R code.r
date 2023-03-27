@@ -64,3 +64,20 @@ barplot(Gn,main = "Movie Genres in Netflix",names.arg=c("Com","Adv","Act","Dra",
 barplot(Gh,main = "Movie Genres in Hulu",names.arg=c("Com","Adv","Act","Dra","Thr","Rom","Doc","Sci"))  
 barplot(Gp,main = "Movie Genres in Prime Video",names.arg=c("Com","Adv","Act","Dra","Thr","Rom","Doc","Sci"))
 barplot(Gd,main = "Movie Genres in Disney+",names.arg=c("Com","Adv","Act","Dra","Thr","Rom","Doc","Sci"))
+
+#New version of bar plots
+lab=c("Comedy","Adventure","Action","Drama","Thriller","Romance","Documentary","Sci-Fi")
+Gn<-data.frame(Gn,lab)
+Gh<-data.frame(Gh,lab)
+Gp<-data.frame(Gp,lab)
+Gd<-data.frame(Gd,lab)
+Gn<-Gn[order(Gn$Gn,decreasing =TRUE),]
+Gh<-Gh[order(Gh$Gh,decreasing =TRUE),]
+Gp<-Gp[order(Gp$Gp,decreasing =TRUE),]
+Gd<-Gd[order(Gd$Gd,decreasing =TRUE),]
+win.graph(16,9,9.5)
+par(mfrow=c(2,2))
+barplot(Gn$Gn,main = "Movie Genres in Netflix",names.arg=Gn$lab,col=rainbow(8))
+barplot(Gh$Gh,main = "Movie Genres in Hulu",names.arg=Gh$lab,col=rainbow(8))
+barplot(Gp$Gp,main = "Movie Genres in Prime Video",names.arg=Gp$lab,col=rainbow(8))
+barplot(Gd$Gd,main = "Movie Genres in Disney+",names.arg=Gd$lab,col=rainbow(8))
