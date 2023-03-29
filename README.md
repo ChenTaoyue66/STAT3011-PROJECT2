@@ -2,7 +2,7 @@
 
 ## Project structure
 
-Part one - Improvements in the original Exploratory Data Analysis part (can be seen in Presentation Powerpoint page 6-14, which includes 10 pictures).
+Part one - Improvements in the original Exploratory Data Analysis part (can be seen in Presentation Powerpoint page 6-14, which includes 10 pictures).Please run the code in the same folder as movie_data.csv.
 
 Part two - Modelling the relationship between film features in our dataset and the IMDb rating (can be seen in Presentation Powerpoint page 25-33, which includes 7 pictures).Please run the code in the same folder as movie_data.csv  .
 
