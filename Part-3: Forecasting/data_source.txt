@@ -1,1 +1,8 @@
+For Netflix Dataset:
+https://www.kaggle.com/datasets/shivamb/netflix-shows
 
+For Disney Dataset:
+https://www.kaggle.com/datasets/shivamb/disney-movies-and-tv-shows
+
+For Hulu Dataset:
+https://www.kaggle.com/datasets/shivamb/hulu-movies-and-tv-shows 
