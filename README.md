@@ -11,10 +11,13 @@ Modelling the relationship between film features in our dataset and the IMDb rat
 ### Part three 
 ARIMA in forecasting the number of new movies next year (can be seen in Presentation Powerpoint page 15-24, which includes 20 pictures). Please run the codes with the CSV files in the corresponding folders(four folders in total excluding the folder titled 'correlation test'). 
 Data source:
+
 For Netflix Dataset:
 https://www.kaggle.com/datasets/shivamb/netflix-shows
+
 For Disney Dataset:
 https://www.kaggle.com/datasets/shivamb/disney-movies-and-tv-shows
+
 For Hulu Dataset:
 https://www.kaggle.com/datasets/shivamb/hulu-movies-and-tv-shows 
 
